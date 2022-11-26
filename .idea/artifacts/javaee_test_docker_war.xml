@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javaee-test-docker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>javaee-test-docker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javaee-test-docker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="javaee-test-docker:war exploded" />
+    </root>
+  </artifact>
+</component>
